@@ -9,6 +9,7 @@ name = "ruff_api"
 crate-type = ["cdylib"]
 
 [dependencies]
+pyo3 = "0.18.1"
 ruff = { git = "https://github.com/JonathanPlasse/ruff.git", branch = "ruff-api" }
 ruff_diagnostics = { git = "https://github.com/JonathanPlasse/ruff.git", branch = "ruff-api" }
-pyo3 = "0.18.1"
+toml = "0.7.3"

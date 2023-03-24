@@ -1150,6 +1150,7 @@ dependencies = [
  "pyo3",
  "ruff",
  "ruff_diagnostics",
+ "toml",
 ]
 
 [[package]]
